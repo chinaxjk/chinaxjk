@@ -67,7 +67,7 @@ disqus: loffer #shortname
 gitalk:
   clientID: 842e3144a8a580fdb660
   clientSecret: 7e0742f72eeb1af4576d4b2e2e1229d7d5eda513
-  repo: chinaxjk
+  repo: chinaxjk/chinaxjk
   owner: chinaxjk
 
 # 输入Google Analytics web tracking code
