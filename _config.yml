@@ -65,10 +65,10 @@ disqus: loffer #shortname
 
 # 输入Gitalk相关设定，即可添加评论区
 gitalk:
-  clientID: 
-  clientSecret: 
-  repo: 
-  owner: 
+  clientID: 842e3144a8a580fdb660
+  clientSecret: 7e0742f72eeb1af4576d4b2e2e1229d7d5eda513
+  repo: chinaxjk
+  owner: chinaxjk
 
 # 输入Google Analytics web tracking code
 google_analytics:
