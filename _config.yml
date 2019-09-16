@@ -67,7 +67,7 @@ disqus: shortname # loffer
 gitalk:
   clientID: 842e3144a8a580fdb660
   clientSecret: 7e0742f72eeb1af4576d4b2e2e1229d7d5eda513
-  repo: chinaxjk/chinaxjk
+  repo: chinaxjk
   owner: chinaxjk
 
 # 输入Google Analytics web tracking code
@@ -79,7 +79,7 @@ url: https://cnxjk.xyz
 # 添加你的博客的二级域名，一般来说是你的repository名
 # 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
 # 那么就写成 "/repository-name"
-baseurl: /chinaxjk
+baseurl: /
 
 
 #
