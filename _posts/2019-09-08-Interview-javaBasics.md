@@ -3,13 +3,13 @@ layout:	post
 titile:	"java基础面试题"
 date:	2019-09-08
 Author: chinaxjk
-tags:	[面试题]
+tags:	[面试题,java]
 comments: true
 toc: true
 pinned: true
 ---
 
-一.  **java基础**
+## 一.  **java基础**
 
 1. > jkd 和 jre有什么区别？
 
@@ -134,7 +134,7 @@ AIO 是异步IO的缩写，虽然 NIO 在网络操作中，提供了非阻塞的
 	+ ToString()：返回文件状态的字符串。 
 	+ ToURL()：将文件的路径字符串转换成URL 
 
-二. ### **容器**
+## 二. **容器**
 
 18. > java容器有哪些？
 
@@ -194,7 +194,3 @@ AIO 是异步IO的缩写，虽然 NIO 在网络操作中，提供了非阻塞的
 33. > Interator 怎么使用？有什么特点？
 34. > 则么确保一个集合不能被修改？
 
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
