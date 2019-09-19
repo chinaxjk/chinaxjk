@@ -1,7 +1,7 @@
 ---
 layout: post
 title: static
-date: 2019-09-17
+date: 2019-09-19
 Author: chinaxjk
 tags: [java]
 comments: true
