@@ -48,5 +48,4 @@ example:
 ### 3. static能作用局部变量吗
 	* static是不允许用来修饰局部变量。
 
-[链接][]
-[刚详细的static分析请参考]: https://www.cnblogs.com/gxyandwmm/p/9478569.html "链接"
+[刚详细的static分析请参考](https://www.cnblogs.com/gxyandwmm/p/9478569.html)
