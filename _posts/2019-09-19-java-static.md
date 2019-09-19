@@ -25,7 +25,8 @@ pinned: true
 ### 5. 静态导包
 	  静态导包就是java包的静态导入，用import static代替import静态导入包是JDK1.5中的新特性。  
 
-一般我们导入一个类都用 import com…..ClassName;而静态导入是这样：import static com…..ClassName.*;这里的多了个static，还有就是类名ClassName后面多了个.* ，意思是导入这个类里的静态方法。当然，也可以只导入某个静态方法，只要把 .* 换成静态方法名就行了。然后在这个类中，就可以直接用方法名调用静态方法，而不必用ClassName.方法名 的方式来调用。  
+一般我们导入一个类都用 import com…..ClassName;而静态导入是这样："import static com…..ClassName.* *"
+这里的多了个static，还有就是类名ClassName后面多了个".* *" ，意思是导入这个类里的静态方法。当然，也可以只导入某个静态方法，只要把 ".* *" 换成静态方法名就行了。然后在这个类中，就可以直接用方法名调用静态方法，而不必用ClassName.方法名 的方式来调用。  
 
 好处：这种方法的好处就是可以简化一些操作，例如打印操作System.out.println(…);就可以将其写入一个静态方  
 
@@ -39,8 +40,7 @@ example:
 	2. 提防模糊不清命名static成员
 	3. 你可以在static对象引用，常量static和final修饰的，和static方法上进行静态导入
 
-## 2. static 误区
-	
+## 2. static 误区	
 ### 1. static 关键字会改变类中成员的访问权限吗  
 	* 影响访问权限的是访问权限修饰符
 ### 2. 能通过this访问静态变量吗？  
